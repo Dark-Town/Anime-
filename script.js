@@ -1,6 +1,6 @@
 // Function to fetch a random Neko photo
 function fetchRandomNekoPhoto() {
-    fetch('https://anime-facts-rest-api.herokuapp.com/api/v1')
+    fetch('https://api.waifu.pics/nsfw/waifu')
         .then(response => response.json())
         .then(data => {
             const photoUrl = data.url;
